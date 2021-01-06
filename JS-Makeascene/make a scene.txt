@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeAScene</title>
+</head>
+<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+<body>
+    <a-scene>
+        <a-sphere color="lightgreen" position="-1 1 -2.7" width="9" height="4"></a-sphere>
+        <a-box  color="red" position="-3 1 -2.7" width="0.4" height="3"></a-box>
+        <a-cylinder color="yellow" position="2 1 -2.7" height="2"></a-cylinder>
+        <a-sky color="blue"></a-sky>
+    </a-scene>
+</body>
+</html>
