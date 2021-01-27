@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll On Me</title>
+</head>
+<style>
+    div {
+        height: 100%;
+        width: 100%;
+    }
+</style>
+<body onresize="myFunctionresize()">
+    <div id="Scrolldiv">
+        <h2 id="scroll">Scroll On Me</h2>
+    </div>
+    
+</body>
+<script>
+    document.getElementById("Scrolldiv").addEventListener("wheel", myFunction);
+   
+
+        function myFunction() {
+            h1 = document.getElementById("scroll");
+            h1.addEventListener("wheel", ()=>{ h1.innerHTML += "!" });
+        }
+
+        
+
+        
+        
+</script>
+</html>
